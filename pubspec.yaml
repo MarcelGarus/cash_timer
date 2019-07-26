@@ -1,0 +1,38 @@
+name: cash_timer
+description: An app to track your work time.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^0.13.1
+  cupertino_icons: ^0.1.2
+  provider: ^3.0.0+1
+  rxdart: ^0.22.1
+  shared_preferences: ^0.5.3+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+   - assets/coin.mp3
+   - assets/cha-ching.mp3
+
+  fonts:
+    - family: Ubuntu Mono
+      fonts:
+        - asset: fonts/UbuntuMono-Bold.ttf
+          weight: 700
+    - family: Roboto Condensed
+      fonts:
+        - asset: fonts/RobotoCondensed-Bold.ttf
+          weight: 700
